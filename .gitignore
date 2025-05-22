@@ -1,0 +1,27 @@
+.SCODA_mta_build_tmp
+node_modules
+gen
+.DS_Store
+.vscode
+app/scoda-tsd-__SourceBranch__/dist
+*.mta
+mta_archives
+resources_*/
+resources
+default-env.json
+upload.sh
+upload_btp.sh
+**/control-library.zip
+**/dist/
+**/last-dev/
+.env
+*scratch*.*
+# added by cds
+.cdsrc-private.json
+
+#newly added after creating "scodaadmin" app
+.scp/
+Makefile*.mta
+mta-*
+archive.zip
+.*_mta_build_tmp
